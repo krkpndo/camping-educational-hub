@@ -1,0 +1,130 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+	background-image: url(./img/pexels-cliford-mervil-988071-2398220.jpg);
+	background-size: cover;
+	min-height: 60vh;
+	position: relative;
+	text-shadow: 2px 3px 4px rgba(0, 0, 0, 1);
+	color: white;
+}
+
+.color-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: hsla(0, 0%, 50%, 0.2);
+	z-index: 1;
+}
+
+#home, .container-fluid  {
+	position: relative;
+	z-index: 2;
+}
+
+#featured-header, #contact {
+	background-color: hsla(112, 30%, 48%, 0.8);
+}
+
+.card {
+	width: 100px;
+}
+
+.card-1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(./img/pexels-doterra-international-llc-2204678-17380341.jpg);
+}
+
+.card-2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(./img/pexels-uriel-mont-6271608.jpg);
+}
+
+.card-3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(./img/pexels-vladbagacian-1061640.jpg);
+}
+
+.card-4 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(./img/pexels-lara-jameson-8828681.jpg);
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9, .card-10, .card-11, .card-12, .card-13, .card-14, .card-15, .card-16, .card-17, .card-18, .card-19, .card-20 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    color: white;
+}
+
+.card-5 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/pexels-omergulen-19887125.jpg);
+}
+
+.card-6 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/pexels-timur-weber-9186048.jpg);
+}
+
+.card-7 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/pexels-paggiarofrancesco-793088.jpg);
+}
+
+.card-8 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/pexels-roger-brown-3435524-5125690.jpg);
+}
+
+.card-9 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/hiking.jpg);
+}
+
+.card-10 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/camping.jpg);
+}
+
+.card-11 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/canyoneering.jpg);
+}
+
+.card-12 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/fishing.jpg);
+}
+
+.card-13 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/kayaking.jpg);
+}
+
+.card-14 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/rock-climbing.jpg);
+}
+
+.card-15 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/wildlife-spotting.jpg);
+}
+
+.card-16 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/survival-skills.jpg);
+}
+
+.card-17 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/foraging.jpg);
+}
+
+.card-18 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/photography.jpg);
+}
+
+.card-19 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/weather.jpg);
+}
+
+.card-20 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/stargazing.jpg);
+}
